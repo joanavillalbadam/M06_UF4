@@ -4,14 +4,13 @@ import java.util.Calendar;
 
 
 public class MyUtils {
-    
 
 /**
  * 
  * @param cadena Strint cadena que es vol invertir
  * @return cadena invertida (null per cadenes nulls).
  */
-       private static String sCadena = "Hola Mundo";
+       private static String sCadena = "12345..:,";
       private static String inverteix="";
       
       private static int dia = 10;
@@ -23,10 +22,23 @@ public class MyUtils {
       
      public static void main(String[] args) {
    
+         if(sCadena == null){
+         System.err.println("El valor del string es null!");
+         }else{
          inverteix(sCadena, inverteix);
+         }
+         
+    if(dia > 31 || dia <= 0 || mes > 12 || mes <= 0 || año > 2015){
+    System.err.println("has instroducido datos erroneos!");
+    }else{
          edat(dia,mes,año);
+         }
+    if(numero <= 0){
+        System.err.println("el numero a de ser mayor que 0");
+    }
+    else{
          factorial(numero);
-     
+    } 
      
      }
     public static String inverteix (String sCadena, String inverteix)
