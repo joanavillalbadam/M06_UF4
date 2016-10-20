@@ -10,33 +10,40 @@ public class MyUtils {
  * @param cadena Strint cadena que es vol invertir
  * @return cadena invertida (null per cadenes nulls).
  */
-       private static String sCadena = "12345..:,";
+       private static String sCadena = "Hola mundo";
       private static String inverteix="";
       
       private static int dia = 10;
       private static int mes = 12;
       private static int año =1996;
       
+        private static int err1=-1;
+        private static int err2=-2;
+      
     private static double factorial = 1;
-    private static double numero=20;
+    private static int numero=20;
       
      public static void main(String[] args) {
    
-         if(sCadena == null){
-         System.err.println("El valor del string es null!");
-         }else{
+        if(sCadena!=null){
          inverteix(sCadena, inverteix);
+        }else{
+        System.out.println("null");
+        }
+       Calendar cal = Calendar.getInstance();
+        if(dia > 31 || dia < 0 || mes > 12 || mes < 0 || año > 2015 || año < 0){
+         System.out.println(err1);
+         }else if(cal.get(Calendar.YEAR) - año > 150){
+             System.out.println(err2);
+        } else {
+            edat(dia,mes,año);      
          }
-         
-    if(dia > 31 || dia <= 0 || mes > 12 || mes <= 0 || año > 2015){
-    System.err.println("has instroducido datos erroneos!");
-    }else{
-         edat(dia,mes,año);
+        
+        
+        if(numero <= 0 || numero > 999){
+        System.out.println(err1);
          }
-    if(numero <= 0){
-        System.err.println("el numero a de ser mayor que 0");
-    }
-    else{
+        else{
          factorial(numero);
     } 
      
@@ -97,4 +104,5 @@ return resultat;
 }
 
 }
+
 }
