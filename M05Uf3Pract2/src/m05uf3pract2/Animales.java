@@ -55,7 +55,7 @@ public class Animales {
      }
 
     private void afegir() {
-       // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      
         System.out.println("Escull quin animal vols afegir");
         System.out.println("1.-cocodrils");
         System.out.println("2.-vacas");
@@ -74,7 +74,7 @@ public class Animales {
     }
 
     private void Suprimir() {
-      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      
      System.out.println("Escull quin animal vols suprimir");
         System.out.println("1.-cocodrils");
         System.out.println("2.-vacas");
@@ -93,7 +93,7 @@ public class Animales {
     }
 
     private void SuprimirTots() {
-       // throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+       
     System.out.println("Escull quin tipus d'animals vols suprimir");
         System.out.println("1.-cocodrils");
         System.out.println("2.-vacas");
@@ -101,7 +101,7 @@ public class Animales {
     }
 
     public void Mirar() {
-      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+     
     int x;
     Random numAleatorio;
     numAleatorio = new Random();
@@ -133,9 +133,9 @@ public class Animales {
             String m;
         m = this.vaca.menja();
         System.out.println(m);
-            }
-       
+            }      
     }
+    
     if(x == 3){
     numAleatorio = new Random();
     int L = numAleatorio.nextInt(4);
@@ -158,7 +158,6 @@ public class Animales {
     }
 
     private void sortir() {
-      //  throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    //TODO hacer metodo para salir;
+    System.exit(0); 
     }
 }

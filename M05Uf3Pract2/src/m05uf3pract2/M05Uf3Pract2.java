@@ -18,12 +18,12 @@ public class M05Uf3Pract2 {
     public String mostraMenu(){
        // Scanner lector = new Scanner (System.in);
     System.out.println("Seleccionar operació:"
-    +"\n1.Afegeix"+" 2.Suprimeix" + "3. SuprimirTots"+"mira"+"Surt");
+    +"\n1.Afegeix"+" \n2.Suprimeix" + "\n3.SuprimirTots"+"\n4.mira"+"\n5.Surt");
     return lector.nextLine();  
     }
 
     void mostrarmissatge(String incorectoo) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        System.err.println("Aquesta comanda no existeix");
     }
     
     }
