@@ -10,5 +10,5 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface ModulIn extends SuperGenerica{
-    
+        public void buscarModul();
 }

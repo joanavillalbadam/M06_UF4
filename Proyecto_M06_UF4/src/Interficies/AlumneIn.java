@@ -5,12 +5,14 @@
  */
 package Interficies;
 
+import model.Alumne;
+
 /**
  *
  * @author ALUMNEDAM
  */
-public interface AlumneIn extends SuperGenerica{
+public interface AlumneIn extends SuperGenerica<Alumne>{
     
-    public void buscar();
+    public void buscarPorNombre();
     
 }

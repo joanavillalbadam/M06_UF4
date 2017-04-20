@@ -11,4 +11,5 @@ package Interficies;
  */
 public interface CicleIn extends SuperGenerica{
     
+    public void buscarCiclo();
 }

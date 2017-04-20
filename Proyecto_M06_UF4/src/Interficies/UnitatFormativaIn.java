@@ -10,5 +10,5 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface UnitatFormativaIn extends SuperGenerica{
-    
+        public void buscarUF();
 }

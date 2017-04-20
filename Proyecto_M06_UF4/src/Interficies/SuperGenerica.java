@@ -9,7 +9,7 @@ package Interficies;
  *
  * @author ALUMNEDAM
  */
-public interface SuperGenerica <T>{
+public interface SuperGenerica<T>{
     
     public void Afegir(T t);
     public void eliminar(T t);

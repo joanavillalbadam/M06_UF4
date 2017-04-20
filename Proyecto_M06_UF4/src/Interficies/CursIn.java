@@ -10,5 +10,5 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface CursIn extends SuperGenerica{
-    
+    public void buscarCurso();
 }

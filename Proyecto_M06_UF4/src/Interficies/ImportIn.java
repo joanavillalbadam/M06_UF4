@@ -10,5 +10,5 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface ImportIn extends SuperGenerica{
-    
+        public void buscarImporte();
 }

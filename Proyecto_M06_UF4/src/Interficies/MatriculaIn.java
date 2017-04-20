@@ -10,5 +10,5 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface MatriculaIn extends SuperGenerica{
-    
+        public void buscarMatricula();
 }

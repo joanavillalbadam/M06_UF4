@@ -10,5 +10,6 @@ package Interficies;
  * @author ALUMNEDAM
  */
 public interface FamiliaIn extends SuperGenerica{
+        public void buscarFamilia();
     
 }

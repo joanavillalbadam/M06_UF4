@@ -6,6 +6,7 @@
 package controlador;
 
 import Interficies.AlumneIn;
+import model.Alumne;
 
 /**
  *
@@ -13,23 +14,24 @@ import Interficies.AlumneIn;
  */
 public class Alumne_control implements AlumneIn{
 
+   
     @Override
-    public void buscar() {
+    public void buscarPorNombre() {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void Afegir(Object t) {
+    public void Afegir(Alumne t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void eliminar(Object t) {
+    public void eliminar(Alumne t) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     @Override
-    public void modificar(Object t, Object nuevoT) {
+    public void modificar(Alumne t, Alumne nuevoT) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
